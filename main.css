@@ -4,21 +4,18 @@ body {
 
 .black {
     background-color: #505050;
-    color: lightgrey;
+    color: #d7d7d7;
     margin-left: 0;
     width: 100%;
     padding-bottom: 10px;
     padding-top: 10px;
 }
-.black h1, h2, p, aside, img{
+
+.black h1, h2, p, aside, img, a{
     margin-left: 16px;
+    margin-right: 6px;
 }
 
-.grad {
-    background: linear-gradient(0deg, white 100%, black 100%);
-    height: 100px;
-    width: 100%;
-}
 .top-navbar {
     left: 0;
     position: fixed;
@@ -26,13 +23,16 @@ body {
     height: 50px;
     width: 100%;
     background-color: #000000;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 .top-navbar a {
     float: left;
     color: lightgrey;
-    text-align: center;
-    padding: 14px 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
     text-decoration: none;
     font-size: 20px;
 }
@@ -45,16 +45,20 @@ body {
     margin: 0px;
     left: 0;
     bottom: 0;
+    padding-bottom: 11px;
     height: 50px;
     width: 100%;
     background-color: #000000;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 .bot-navbar a {
     float: left;
     color: lightgrey;
-    text-align: center;
-    padding: 14px 14px;
+    padding-top: 4%;
+    padding-bottom: 0px;
     text-decoration: none;
     font-size: 20px;
 }
