@@ -34,13 +34,13 @@ body {
     padding-top: 14px;
     padding-bottom: 14px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 130%;
     transition: font-size .5s;
 }
 
 .top-navbar a:hover {
     color: antiquewhite;
-    font-size: 25px;
+    font-size: 150%;
 }
 
 .bot-navbar {
@@ -62,11 +62,11 @@ body {
     padding-top: 19px;
     padding-bottom: 0px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 130%;
     transition: font-size .5s;
 }
 
 .bot-navbar a:hover {
     color: antiquewhite;
-    font-size: 25px;
+    font-size: 150%;
 }
